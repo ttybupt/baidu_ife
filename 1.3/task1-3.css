@@ -1,0 +1,41 @@
+body{
+	padding:20px;
+	margin:0px;
+}
+.main{
+	background-color: #eee;
+	overflow: hidden;
+	border:1px solid #999;
+	min-width: 600px;
+}
+.left,.right,.center{
+	background-color: #fff;
+	border: 1px solid #999;
+	margin:20px;
+}
+.left{
+	float:left;
+	width:200px;
+}
+.right{
+	float: right;
+	width:120px;
+	margin:20px;
+}
+.center{
+	margin-left:242px;
+	margin-right:162px;
+	padding: 20px;
+}
+.left img{
+	float:left;
+	padding: 20px;
+}
+.groupname{
+	float:left;
+	padding-top: 20px;
+}
+.right img{
+	margin:20px;
+	border: 1px solid;
+}

@@ -1,0 +1,47 @@
+<html>
+	<head>
+		
+		<!--该方法使用绝对定位以及负边距的方法实现居中></!-->
+		<style>
+			.grey{
+				height: 200px;
+				width: 400px;
+				background-color: #ccc;
+				margin-bottom: -100px;
+				margin-left: -200px;
+				position: absolute;
+				bottom: 50%;
+				left: 50%;
+				overflow: hidden;
+			}
+			.circle1{
+				background-color: #fc0;
+				width: 100px;
+			    height: 100px;
+			    -moz-border-radius: 50px;
+			    -webkit-border-radius: 50px;
+			    position: relative;
+			    left:-50px;
+			    top:-50px;
+			}
+			.circle2{
+				float: right;
+				background-color: #fc0;
+				width: 100px;
+			    height: 100px;
+			    -moz-border-radius: 50px;
+			    -webkit-border-radius: 50px;
+			    position: relative;
+			    left: 50px;
+			    top: 50px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="grey">
+			<div class="circle1"></div>
+			<div class="circle2"></div>
+		</div>
+	</body>
+</html>
