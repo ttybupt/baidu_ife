@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			body{
+			position:absolute;
+				width:60%;
+				height:90%;
+				border:1px solid black;
+			}
+
+			#middleBox{
+				position:absolute;
+				left:25%;
+				top:35%;
+				background-color:#ccc;
+				width:400px;
+				height:200px;
+				overflow:hidden;
+				<--margin:-100px 0 0 -200px;-->
+			}
+			#round_1,#round_2{
+				width:100px;
+				height:100px;
+				background-color:#fc0;
+				border-radius:50px;
+			}
+			#round_1{
+				position:absolute;
+				left:-50px;
+				top:-50px;
+			}
+			#round_2{
+				position:absolute;
+				right:-50px;
+				bottom:-50px;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div id="middleBox">
+			<div id="round_1"></div>
+			<div id="round_2"></div>
+		</div>
+	</body>
+</html>
