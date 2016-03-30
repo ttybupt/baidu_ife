@@ -47,7 +47,6 @@ function init(){
   document.getElementById("right_out").onclick = right_out;
 
   document.getElementById("numlist").addEventListener("click",function(e){
-    document.getElementById("test").innerHTML = e.target.nodeName;
     if(e.target.nodeName =="LI"){
       numlist.removeChild(e.target);
         // document.getElementById("test").innerHTML = temp; 测试用
